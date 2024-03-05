@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Cafe.Models.Blog>
+
+@foreach (var x in Model)
+{
+	<div class="blo4 p-b-63">
+		<!-- - -->
+		<div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+			<a >
+				<img src="@x.Image" alt="IMG-BLOG">
+			</a>
+
+			<div class="date-blo4 flex-col-c-m">
+				<span class="txt30 m-b-4">
+					@x.Tarih.ToString("dd")
+				</span>
+
+				<span class="txt31">
+					@x.Tarih.ToString("MMMM ,yyyy")
+				</span>
+			</div>
+		</div>
+
+		<!-- - -->
+		<div class="text-blo4 p-t-33">
+			<h4 class="p-b-16">
+				<a class="tit9">@x.Title</a>
+			</h4>
+
+			<div class="txt32 flex-w p-b-24">
+				<span>
+					@x.Email
+					<span class="m-r-6 m-l-4">|</span>
+				</span>
+
+				<span>
+					@x.Tarih.ToShortDateString()
+					<span class="m-r-6 m-l-4">|</span>
+				</span>	
+			</div>
+
+			<p>
+				@x.Mesaj
+			</p>
+		</div>
+	</div>
+}

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Cafe.Models.Rezervasyon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table table-bordered table-striped" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                Adı
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Telefon No
+            </th>
+            <th>
+                Sayi
+            </th>
+            <th>
+                Saat
+            </th>
+            <th>
+                Tarih
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TelefonNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sayi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saat)
+                </td>
+                <td>
+                    @item.Tarih.ToShortDateString()
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+
+    <script type="text/javascript">
+        let table = new DataTable('#myTable', {
+
+            language: {
+                url: '//cdn.datatables.net/plug-ins/2.0.1/i18n/tr.json',
+            },
+        });
+    </script>
+}

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Cafe.Models.Menu>
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/Site/images/bg-title-page-01.jpg);">
+	<h2 class="tit6 t-center">
+		Menu Listesi
+	</h2>
+</section>
+
+<section class="section-lunch bgwhite">
+
+
+	<div class="container">
+		<div class="row p-t-10">
+			@foreach (var x in Model)
+			{
+				<div class="col-md-12 col-lg-6">
+					<!-- Block3 -->
+					<div class="blo3 flex-w flex-col-l-sm m-b-30">
+						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+							<a><img src="@x.Image" alt="IMG-MENU"></a>
+						</div>
+
+						<div class="text-blo3 size21 flex-col-l-m">
+							<a class="txt21 m-b-3">
+								@x.Title
+							</a>
+
+							<span class="txt23">
+								@x.Description
+							</span>
+
+							<span class="txt22 m-t-20">
+								@x.Price ₺
+							</span>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</section>
+
+
+

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Cafe.Models.Galeri>
+@{
+    ViewData["Title"] = "Galeri";
+    Layout = "~/Views/Shared/_Alayout.cshtml";
+}
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url(/Site/images/bg-title-page-02.jpg);">
+    <h2 class="tit6 t-center">
+        Galeri
+    </h2>
+</section>
+
+
+
+<!-- Gallery -->
+<div class="section-gallery p-t-118 p-b-100">
+   
+
+    <div class="wrap-gallery isotope-grid flex-w p-l-25 p-r-25">
+        @foreach (var x in Model)
+        {
+             <div class="item-gallery isotope-item bo-rad-10 hov-img-zoom events guests">
+            <img src="@x.Image" alt="IMG-GALLERY" height="300">
+        </div>
+        }
+</div>
+</div>
+

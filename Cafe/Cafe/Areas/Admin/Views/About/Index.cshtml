@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Cafe.Models.About>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-primary">Konu Ekle</a>
+</p>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Başlık
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success">Düzenle</a> 
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
