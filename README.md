@@ -31,3 +31,10 @@ Garsonlar ve şefler personel olarak kabul edilir. İstemci gibi tüm işlevlere
 </ul>
 
 <h4>Site Tamamen Responsive tasarımdır. Admin tarafına geçiş için under-footer kısmından Mert Cafe yazan yere basıp login olup giriş yaptıktan sonra panele erişebilirsiniz.</h4>
+
+
+
+
+<h2>Proje içi Görseller</h2>
+
+[url=https://hizliresim.com/8ay9iwi][img]https://i.hizliresim.com/8ay9iwi.png[/img][/url]
