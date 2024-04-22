@@ -30,4 +30,4 @@ Garsonlar ve şefler personel olarak kabul edilir. İstemci gibi tüm işlevlere
   <li>Siteye yeni bir kullanıcı, personel ekleyip silebilir </li>
 </ul>
 
-<h3>Site Tamamen Responsive tasarımdır. Admin tarafına geçiş için under-footer kısmından Mert Cafe yazan yere basıp login olup giriş yaptıktan sonra panele erişebilirsiniz.</h3>
+<h4>Site Tamamen Responsive tasarımdır. Admin tarafına geçiş için under-footer kısmından Mert Cafe yazan yere basıp login olup giriş yaptıktan sonra panele erişebilirsiniz.</h4>
