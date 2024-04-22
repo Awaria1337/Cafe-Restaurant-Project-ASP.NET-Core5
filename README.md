@@ -2,7 +2,7 @@
 
 <h2>ASP .NET Core 5.0 Web Uygulaması Projesi</h2>
 
-Restoran Menüsü projesi, Softuni ASP.NET Core kursu için yapılmış bir projedir. Web sitesi, müşterilerin akıllı telefonları aracılığıyla sipariş verebilecekleri ve garsonların ve aşçıların siparişlerini hemen alabilecekleri tam otomatik çevrimiçi restoran menüsü için bir iş fikridir.</p>
+Restoran Menüsü projesi, Softuni ASP.NET Core5 için yapılmış bir projedir. Web sitesi, müşterilerin akıllı telefonları aracılığıyla sipariş verebilecekleri ve garsonların ve aşçıların siparişlerini hemen alabilecekleri tam otomatik çevrimiçi restoran menüsü için bir iş fikridir.</p>
 
 <h3><br>Misafir<br></h3>
 <ul>
@@ -18,14 +18,16 @@ Garsonlar ve şefler personel olarak kabul edilir. İstemci gibi tüm işlevlere
 
 
 <h3><br>Yönetici<br></h3>
+<p>Yöneticiler şunları yapabilir:</p>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Ana sayfaya kategori ekleyip silebilir</li>
+  <li>MResimli bir şekilde menü ekleyip güncelleyip silebilir</li>
+  <li>Sitede ki galeri kısmına fotoğraf ekleyip silebilir</li>
+  <li>Hakkımızda kısmını tamamiyle dinamik olarak güncelleyip ekleyip silebilir</li>
+  <li>Blog kısmından gelen mesajları onaylayıp sitede yayınlayabilir.</li>
+  <li>İletişim kısmından gelen mesajları kontrol edip silebilir</li>
+  <li>Footer alanındaki iletişim kısmını dinamik olarak degiştirip silebilir.</li>  
+  <li>Siteye yeni bir kullanıcı, personel ekleyip silebilir </li>
 </ul>
+
+<h3>Site Tamamen Responsive tasarımdır. Admin tarafına geçiş için under-footer kısmından Mert Cafe yazan yere basıp login olup giriş yaptıktan sonra panele erişebilirsiniz.</h3>
