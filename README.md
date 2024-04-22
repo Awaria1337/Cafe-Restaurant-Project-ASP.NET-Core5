@@ -40,10 +40,10 @@ Garsonlar ve şefler personel olarak kabul edilir. İstemci gibi tüm işlevlere
 <img src="https://i.hizliresim.com/8ay9iwi.png">
 <img src="https://i.hizliresim.com/o9cuq3z.png">
 <img src="https://i.hizliresim.com/nqazgf5.png">
-<img src="https://i.hizliresim.com/nqazgf5.png">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="https://i.hizliresim.com/6wl5se9.png">
+<img src="https://i.hizliresim.com/x3dnrv4.png">
+<img src="https://i.hizliresim.com/94anv4z.png">
+<img src="https://hizliresim.com/6v0u3bb">
+<img src="https://i.hizliresim.com/cu1qja7.png">
 <img src="">
 
