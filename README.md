@@ -37,4 +37,4 @@ Garsonlar ve şefler personel olarak kabul edilir. İstemci gibi tüm işlevlere
 
 <h2>Proje içi Görseller</h2>
 
-[url=https://hizliresim.com/8ay9iwi][img]https://i.hizliresim.com/8ay9iwi.png[/img][/url]
+<imp src="[url=https://hizliresim.com/8ay9iwi][img]https://i.hizliresim.com/8ay9iwi.png[/img][/url]">
